@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dongeng Christopher Fikry"
+        android:gravity="center"
+        android:textSize="40dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_marginTop="16sp"
+
+            android:layout_gravity="center"
+            android:elevation="1dp"
+            android:maxWidth="2dp"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:src="@drawable/cinderella" />
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="16sp"
+            android:src="@drawable/tarzan" />
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="16sp"
+            android:src="@drawable/superman" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:height="100dp"
+            android:text="Cerita tentang gadis cantik dan baik hati yang memiliki saudara tiri"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:height="100dp"
+            android:text="Kisah dari sebuah anak keluarga bangsawan yang ditinggalkan di pantai"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:width="100dp"
+            android:height="100dp"
+            android:text="Cerita bayi dari Planet Krypton yang dikirim ke bumi"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kredit"
+        android:id="@+id/kredit"/>
+
+
+
+</LinearLayout>
